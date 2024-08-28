@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit';
-import { property, customElement } from 'lit/decorators.js';
+import { LitElement, html } from 'lit';
+import { customElement } from 'lit/decorators.js';
 
 @customElement('app-lit-components')
 export class AppLitComponents extends LitElement {
