@@ -6,10 +6,10 @@ import { customElement, property } from 'lit/decorators.js';
  *
  * 2. Regitster a custom element with the browser:
  *    a) Use the @customElement decorator (shorthand for customElements.define.
- *    b) Call define() directly `customElements.define('app-lit-define-component', AppLitDefineComponent);`
+ *    b) Call define() directly `customElements.define('define-component', DefineComponent);`
  */
-@customElement('app-lit-define-component')
-export class AppLitDefineComponent extends LitElement {
+@customElement('define-component')
+export class DefineComponent extends LitElement {
   header = 'Define a component';
 
   @property({type: Number})
@@ -29,11 +29,11 @@ export class AppLitDefineComponent extends LitElement {
  * and ensuring you publish your .d.ts typings in your npm package.
  * This enables TypeScript to properly type-check your custom elements.
  *
- * const myElement = document.createElement('app-lit-define-component');
+ * const myElement = document.createElement('define-component');
  * myElement.aNumber = 10;
  */
 declare global {
   interface HTMLElementTagNameMap {
-    "app-lit-define-component": AppLitDefineComponent;
+    "define-component": DefineComponent;
   }
 }
