@@ -6,13 +6,16 @@
 
 Based on simplified setup from `npm init @open-wc`
 
-`pnpm run build:01`
+`pnpm build:01`
 
-`pnpm run start:01`
+`pnpm start:01`
 
 ### [02-components](https://lit.dev/docs/components/overview/)
 
-`pnpm run build:02`
+`pnpm build:02`
 
-`pnpm run start:02`
+`pnpm start:02`
 
+### [03-styles](https://lit.dev/docs/components/styles/)
+
+`pnpm create vite packages/03-styles --template lit-ts`
