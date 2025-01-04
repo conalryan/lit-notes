@@ -1,0 +1,9 @@
+@import "bootstrap/scss/variables";
+
+p {
+  color: $danger;
+  padding-bottom: 8px;
+  b {
+    color: $primary;
+  }
+}
