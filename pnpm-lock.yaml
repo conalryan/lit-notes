@@ -125,6 +125,19 @@ importers:
         specifier: ^6.0.1
         version: 6.0.7(@types/node@22.5.1)(jiti@1.21.6)(lightningcss@1.26.0)(sass@1.80.6)(terser@5.31.6)(yaml@2.6.0)
 
+  packages/04-lifecycle:
+    dependencies:
+      lit:
+        specifier: ^3.2.1
+        version: 3.2.1
+    devDependencies:
+      typescript:
+        specifier: ~5.6.2
+        version: 5.6.3
+      vite:
+        specifier: ^6.0.5
+        version: 6.0.7(@types/node@22.5.1)(jiti@1.21.6)(lightningcss@1.26.0)(sass@1.80.6)(terser@5.31.6)(yaml@2.6.0)
+
   packages/lit-bootstrap-sass:
     devDependencies:
       autoprefixer:
@@ -2648,7 +2661,7 @@ packages:
     hasBin: true
 
   esbuild@0.24.2:
-    resolution: {integrity: sha512-+9egpBW8I3CD5XPe0n6BfT5fxLzxrlDzqydF3aviG+9ni1lDC/OvMHcxqEFV0+LANZG5R1bFMWfUrjVsdwxJvA==, tarball: https://repos.akamai.com:443/artifactory/api/npm/npmjs-repos/esbuild/-/esbuild-0.24.2.tgz}
+    resolution: {integrity: sha512-+9egpBW8I3CD5XPe0n6BfT5fxLzxrlDzqydF3aviG+9ni1lDC/OvMHcxqEFV0+LANZG5R1bFMWfUrjVsdwxJvA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4064,7 +4077,7 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
 
   postcss@8.4.49:
-    resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==, tarball: https://repos.akamai.com:443/artifactory/api/npm/npmjs-repos/postcss/-/postcss-8.4.49.tgz}
+    resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
   pretty-bytes@5.6.0:
@@ -4836,7 +4849,7 @@ packages:
         optional: true
 
   vite@6.0.7:
-    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==, tarball: https://repos.akamai.com:443/artifactory/api/npm/npmjs-repos/vite/-/vite-6.0.7.tgz}
+    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
