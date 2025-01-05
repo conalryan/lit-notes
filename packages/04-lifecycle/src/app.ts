@@ -1,5 +1,6 @@
-import { LitElement, css, html } from 'lit'
-import { customElement } from 'lit/decorators.js'
+import {LitElement, css, html} from 'lit';
+import {customElement} from 'lit/decorators.js';
+import './01-constructor';
 
 @customElement('app-element')
 export class AppElement extends LitElement {
@@ -7,7 +8,10 @@ export class AppElement extends LitElement {
   render() {
     return html`
       <main>
-        <h1>01 - Lifecycle</h1>
+        <h1>04 - Lifecycle</h1>
+
+        <h3>01 - Constructor</h3>
+        <constructor-element></constructor-element>
       </main>
     `
   }
