@@ -11,6 +11,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --theming-element-text-color: green;
+  --theming-element-background-color: lightblue;
+  --theming-element-font-family: Roboto;
 }
 
 a {
