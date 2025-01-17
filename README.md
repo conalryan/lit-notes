@@ -16,6 +16,12 @@ Based on simplified setup from `npm init @open-wc`
 
 `pnpm start:02`
 
+Define components
+
+Render components
+
+Reactive properties
+
 ### [03-styles](https://lit.dev/docs/components/styles/)
 
 `pnpm create vite packages/03-styles --template lit-ts`
@@ -24,6 +30,17 @@ Based on simplified setup from `npm init @open-wc`
 
 `pnpm start:03`
 
+Add styles
+
+Inheriting styles
+
+Sharing styles
+
+Styling children
+
+Dynamic styles
+
+Theming
 
 ### [04-lifecycle](https://lit.dev/docs/components/lifecycle/)
 
@@ -32,3 +49,15 @@ Based on simplified setup from `npm init @open-wc`
 `pnpm build:04`
 
 `pnpm start:04`
+
+Constructor
+
+Connected callback
+
+Disconnected callback
+
+Attribute changed callback
+
+Adopted callback
+
+Changed properties map
