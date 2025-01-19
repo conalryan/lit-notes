@@ -6,6 +6,12 @@ import "./03-disconnected-callback";
 import "./04-attribute-changed-callback";
 import "./05-adopted-callback";
 import "./06-changed-properties-map";
+import "./07-triggering-update";
+import "./08-performing-update";
+import "./09-completing-update";
+import "./10-customize-update";
+import "./11-external-lifecycle-hooks";
+
 @customElement("app-element")
 export class AppElement extends LitElement {
   private showDisconnected = true;
@@ -15,6 +21,12 @@ export class AppElement extends LitElement {
 
   @state()
   changedPropertiesMapMsg = "changed properties map message from the parent";
+
+  @state()
+  prop1 = "value from the parent prop1";
+
+  @state()
+  prop2 = "value from the parent prop2";
 
   render() {
     return html`
@@ -50,6 +62,29 @@ export class AppElement extends LitElement {
         <changed-properties-map-element
           msg=${this.changedPropertiesMapMsg}
         ></changed-properties-map-element>
+
+        <h3>07 - TriggeringUpdate</h3>
+        <triggering-update-element></triggering-update-element>
+
+        <h3>08 - PerformingUpdate</h3>
+        <performing-update-element prop1=${this.prop1} prop2=${this.prop2}></performing-update-element>
+        <label>
+          Prop1:
+          <input type="text" @input=${this._handleProp1Input} />
+        </label>
+        <label>
+          Prop2:
+          <input type="text" @input=${this._handleProp2Input} />
+        </label>
+
+        <h3>09 - CompletingUpdate</h3>
+        <completing-update-element></completing-update-element>
+
+        <h3>10 - CustomizeUpdate</h3>
+        <customize-update-element></customize-update-element>
+
+        <h3>11 - External Lifecycle Hooks</h3>
+        <external-lifecycle-hooks></external-lifecycle-hooks>
       </main>
     `;
   }
@@ -62,6 +97,16 @@ export class AppElement extends LitElement {
   private _handleChangedPropertiesMapInput(e: Event) {
     const input = e.target as HTMLInputElement;
     this.changedPropertiesMapMsg = input.value;
+  }
+
+  private _handleProp1Input(e: Event) {
+    const input = e.target as HTMLInputElement;
+    this.prop1 = input.value;
+  }
+
+  private _handleProp2Input(e: Event) {
+    const input = e.target as HTMLInputElement;
+    this.prop2 = input.value;
   }
 
   private _toggleDisconnected() {

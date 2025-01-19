@@ -61,3 +61,13 @@ Attribute changed callback
 Adopted callback
 
 Changed properties map
+
+Triggering update
+
+Performing update
+
+Completing update
+
+Customize update
+
+External lifecycle hooks
