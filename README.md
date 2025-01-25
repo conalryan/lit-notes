@@ -71,3 +71,19 @@ Completing update
 Customize update
 
 External lifecycle hooks
+
+### [05-shadow-dom](https://lit.dev/docs/components/shadow-dom/)
+
+`pnpm create vite packages/05-shadow-dom --template lit-ts`
+
+`pnpm build:05`
+
+`pnpm start:05`
+
+Accessing nodes
+
+Children with slots
+
+Accessing slotted children
+
+Customizing the render root
