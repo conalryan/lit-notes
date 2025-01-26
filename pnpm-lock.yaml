@@ -164,6 +164,19 @@ importers:
         specifier: ^6.0.5
         version: 6.0.7(@types/node@22.5.1)(jiti@1.21.6)(lightningcss@1.26.0)(sass@1.80.6)(terser@5.31.6)(yaml@2.6.0)
 
+  packages/07-decorators:
+    dependencies:
+      lit:
+        specifier: ^3.2.1
+        version: 3.2.1
+    devDependencies:
+      typescript:
+        specifier: ~5.6.2
+        version: 5.6.3
+      vite:
+        specifier: ^6.0.5
+        version: 6.0.7(@types/node@22.5.1)(jiti@1.21.6)(lightningcss@1.26.0)(sass@1.80.6)(terser@5.31.6)(yaml@2.6.0)
+
   packages/lit-bootstrap-sass:
     devDependencies:
       autoprefixer:

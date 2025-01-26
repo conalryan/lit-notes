@@ -104,3 +104,10 @@ Working with events in shadow DOM
 
 Communicating between dispatcher and listener
 
+### [07-decorators](https://lit.dev/docs/components/decorators/)
+
+`pnpm create vite packages/07-decorators --template lit-ts`
+
+`pnpm build:07`
+
+`pnpm start:07`
