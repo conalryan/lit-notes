@@ -7,11 +7,13 @@
     "build:03": "pnpm --filter 03-styles build",
     "build:04": "pnpm --filter 04-lifecycle build",
     "build:05": "pnpm --filter 05-shadow-dom build",
+    "build:06": "pnpm --filter 06-events build",
     "dev:01": "pnpm --filter 01-introduction start",
     "dev:02": "pnpm --filter 02-components start",
     "dev:03": "pnpm --filter 03-styles dev",
     "dev:04": "pnpm --filter 04-lifecycle dev",
     "dev:05": "pnpm --filter 05-shadow-dom dev",
+    "dev:06": "pnpm --filter 06-events dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",

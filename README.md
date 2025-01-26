@@ -87,3 +87,20 @@ Children with slots
 Accessing slotted children
 
 Customizing the render root
+
+### [06-events](https://lit.dev/docs/components/events/)
+
+`pnpm create vite packages/06-events --template lit-ts`
+
+`pnpm build:06`
+
+`pnpm start:06`
+
+Listening to events
+
+Dispatching events
+
+Working with events in shadow DOM
+
+Communicating between dispatcher and listener
+
