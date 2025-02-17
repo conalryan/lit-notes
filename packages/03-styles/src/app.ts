@@ -6,6 +6,7 @@ import "./03-sharing-styles.ts";
 import "./04-styling-children.ts";
 import "./05-dynamic-styles.ts";
 import "./06-theming.ts";
+import "./07-import-styles.ts";
 
 /**
  * An example element.
@@ -79,6 +80,12 @@ export class AppElement extends LitElement {
       <theming-element></theming-element>
       <br />
       <small>*Verify: green text, lightblue background, Roboto font</small>
+      <hr />
+
+      <h3>07 - Import Styles</h3>
+      <import-styles></import-styles>
+      <br />
+      <small>*Verify: blue lightblue button with black text</small>
       <hr />
     `;
   }

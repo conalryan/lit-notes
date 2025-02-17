@@ -15,6 +15,10 @@
   --theming-element-text-color: green;
   --theming-element-background-color: lightblue;
   --theming-element-font-family: Roboto;
+
+  --button-text-color: black;
+  --button-background-color: lightblue;
+  --button-font-family: Inter;
 }
 
 a {
